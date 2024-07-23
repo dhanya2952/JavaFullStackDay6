@@ -14,16 +14,16 @@ public class MainClass {
 		Item i4=new Item("battery",20,10000,"dell");	
 		Item i5=new Item("laptop",30,50000,"lenovo");
 
-        List<Item> item = new ArrayList<Item>();
+        ArrayList<Item> item = new ArrayList<Item>();
         item.add(i1);
         item.add(i2);
         Orders order = new Orders(1, "23/08/2024", item);
 
-        List<Item> items = new ArrayList<Item>();
+        ArrayList<Item> items = new ArrayList<Item>();
         items.add(i3);
         Orders order1 = new Orders(2, "23/08/2024", items);
 
-        List<Orders> ord = new ArrayList<Orders>();
+        ArrayList<Orders> ord = new ArrayList<Orders>();
         ord.add(order);
         ord.add(order1);
 
